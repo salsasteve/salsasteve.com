@@ -1,10 +1,10 @@
 {
-  "bioUrl": "https://raw.githubusercontent.com/m4tt72/m4tt72/master/README.md",
+  "bioUrl": "https://raw.githubusercontent.com/salsasteve/salsasteve/main/README.md",
   "social": {
-    "instagram": "m4tt72",
-    "github": "m4tt72",
-    "linkedin": "yassinefathi"
+    "instagram": "mr.salsasteve",
+    "github": "salsasteve",
+    "linkedin": "salsasteve"
   },
-  "theme": "gruvboxdark",
+  "theme": "morada",
   "border": true
 }
