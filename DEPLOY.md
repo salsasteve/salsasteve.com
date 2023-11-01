@@ -1,6 +1,6 @@
 # Website Deployment with Cloudflare and Docker
 
-This guide walks you through the process of deploying a website using Docker, Cloudflare, and a custom domain from Namecheap.
+This guide walks you through the process of deploying a website using Docker, Cloudflare, and a custom domain.
 
 ## Prerequisites
 
@@ -9,7 +9,10 @@ This guide walks you through the process of deploying a website using Docker, Cl
 - Cloudflare Account
 - Domain Name (purchased from Namecheap or another domain registrar)
 
-## Step 1: Clone the Repository
+## Step 1: Clone the Repository 
+
+THIS STEP IS ONLY IF YOUR ARE DEPLOYING THIS WEBISTE
+OTHERWISE USE YOU OWN CONTAINER!!!!!
 
 Clone the repository to your local machine:
 
@@ -74,8 +77,9 @@ Replace `<your-website-docker-image>` with the Docker image of your website.
 ## Step 9: Connect Your Domain to the Tunnel on Cloudflare
 
 1. Go back to your Cloudflare dashboard.
-2. Navigate to the DNS settings for your domain.
-3. Create a CNAME record pointing your domain (or a subdomain) to the Cloudflare Tunnel.
+2. Navigate to the ZERO Trust settings for your domain.
+3. Add a public hostname 
+4. Check out these [docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
 
 ## Conclusion
 
